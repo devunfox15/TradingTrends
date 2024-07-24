@@ -1,4 +1,4 @@
-import Navbar from "./navbar";
+import Navbar from "@/components/navbar";
 import { auth } from "@/app/auth";
 
 export default async function NavbarData() {

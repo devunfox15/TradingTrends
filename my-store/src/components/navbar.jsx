@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import NavbarUser from './NavbarUser';
+import NavbarUser from '@/components/navbarUser';
 import '@/styles/globals.css';
 
 export default function Navbar() {
