@@ -1,4 +1,4 @@
-"use Server";
+
 import React from 'react';
 import AutoScrollLeft from './horizontalScrollCarousel';
 import prisma from '@/app/lib/prisma'
