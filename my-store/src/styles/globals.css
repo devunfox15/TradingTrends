@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.merriweather-font {
+font-family: 'Merriweather', serif;
+}
+
+.inter-font {
+font-family: 'Inter', sans-serif;
+}
+
+.specialtext
+    {
+        -webkit-text-fill-color: black;
+        -webkit-text-stroke-width: .5px;
+        -webkit-text-stroke-color: black;
+        font-family: 'Merriweather', serif;
+    }
+
+    @media (min-width: 1025px) {
+    .vertical-text {
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        text-align: center;
+        width: 100%;
+    }
+    }
+    @media (max-width: 1024px) {
+        .vertical-text {
+            width: 100%;
+            writing-mode: horizontal-tb;
+            text-align: center;
+        }
+    }
